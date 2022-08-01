@@ -1,7 +1,7 @@
 <div align="center">
 
   <img src="https://oikonomologos.gr/wp-content/uploads/2020/05/diethnes-panepistimio-ellados-dipae.png" alt="logo" width="200" height="auto" />
-  <h1>Risc-V-SoC-Using-LiteX</h1>
+  <h1>Risc-V SoC Using LiteX</h1>
   
   <p>
     Build Risc-V SoCs Using LiteX framework 
