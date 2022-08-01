@@ -10,23 +10,23 @@
   
 <!-- Badges -->
 <p>
-  <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-Lite/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
+  <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/Lefteris-B/Risc-V-SoC-Using-Litee" alt="contributors" />
   </a>
   <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-Lite">
-    <img src="https://img.shields.io/github/last-commit/Louis3797/awesome-readme-template" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/Lefteris-B/Risc-V-SoC-Using-Litee" alt="last update" />
   </a>
   <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-Litee/network/members">
-    <img src="https://img.shields.io/github/forks/Louis3797/awesome-readme-template" alt="forks" />
+    <img src="https://img.shields.io/github/forks/Lefteris-B/Risc-V-SoC-Using-Litee" alt="forks" />
   </a>
   <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/stargazers">
-    <img src="https://img.shields.io/github/stars/Louis3797/awesome-readme-template" alt="stars" />
+    <img src="https://img.shields.io/github/stars/Lefteris-B/Risc-V-SoC-Using-Litee" alt="stars" />
   </a>
   <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/issues/new/choose">
-    <img src="https://img.shields.io/github/issues/Louis3797/awesome-readme-template" alt="open issues" />
+    <img src="https://img.shields.io/github/issues/Lefteris-B/Risc-V-SoC-Using-Litee" alt="open issues" />
   </a>
   <a href="ttps://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/blob/master/LICENSE.mdE">
-    <img src="https://img.shields.io/github/license/Louis3797/awesome-readme-template.svg" alt="license" />
+    <img src="https://img.shields.io/github/license/Lefteris-B/Risc-V-SoC-Using-Liteg" alt="license" />
   </a>
 </p>
    
