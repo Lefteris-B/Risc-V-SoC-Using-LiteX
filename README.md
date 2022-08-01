@@ -82,8 +82,6 @@
   <ul>
     <li><a href="https://www.python.org/downloads/release/python-370/">Python 3.7</a></li>
     <li><a href="https://pypi.org/project/pip/">pip</a></li>
-    <li><a href="https://ninja-build.org/manual.html">ninja</a></li>
-    <li><a href="https://opensource.com/article/18/8/what-how-makefile">makefile</a></li>
   </ul>
 </details>
 
@@ -92,6 +90,8 @@
   <ul>
     <li><a href="https://www.docker.com/">Docker</a></li>
     <li><a href="https://www.jenkins.io/">Jenkins</a></li>
+    <li><a href="https://ninja-build.org/manual.html">ninja</a></li>
+    <li><a href="https://opensource.com/article/18/8/what-how-makefile">makefile</a></li>
   </ul>
 </details>
 
