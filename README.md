@@ -106,7 +106,9 @@
 <!-- Env Variables -->
 ### Environment Variables
 
-To run this project, you will need to add many  environment variables added  to your .env file
+To run this project, you will need  many environment variables added to your .env file
+and your O.S.Global Variables. 
+Follow throught the wiki directions.
 
 <!-- Getting Started -->
 ## Getting Started
@@ -115,10 +117,16 @@ Start by reading litex wiki.
 <!-- Prerequisites -->
 ### Prerequisites
 
-Intel Quartus toolcahin
+Python 3.9
 
 ```bash
- sudo apt-get install -y Quartus
+ sudo apt-get install -y python3.9
+
+```
+Intel Quartus 22.1.1
+```bash
+ sudo apt-get install -y Quartus-22.1.1-ubuntu
+
 ```
 
 <!-- Installation -->
