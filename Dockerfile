@@ -1,3 +1,8 @@
+#!not working missing commands
+#todo quartus implementation
+#todo litex implemetation
+
+
 #debian linux, python 3.9 image
 FROM python:3.9.13-bullseye
 
