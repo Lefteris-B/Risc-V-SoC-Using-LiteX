@@ -1,7 +1,7 @@
 <div align="center">
 
   <img src="assets/logo.png" alt="logo" width="200" height="auto" />
-  <h1>Risc-V-SoC-Using-LiteXe</h1>
+  <h1>Risc-V-SoC-Using-LiteX</h1>
   
   <p>
     Build Risc-V SoCs Using LiteX framework 
@@ -61,7 +61,7 @@
 ## About the Project
 
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="https://www.openarchives.gr/aggregator-openarchives/portal/organisations/logo/ihu/el/file/ihu.jpeg" alt="screenshot" />
 </div>
 
 
@@ -69,37 +69,21 @@
 ### Tech Stack
 
 <details>
-  <summary>Client</summary>
+  <summary>Litex</summary>
   <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://nextjs.org/">Next.js</a></li>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
+    <li><a href="https://github.com/enjoy-digital/litex">LiteX</a></li>
+    <li><a href="https://github.com/litex-hub/litex-boards">LiteX Boards</a></li>
+    <li><a href="https://github.com/enjoy-digital/litex/wiki">Wiki</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+<summary>Python</summary>
   <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-    <li><a href="https://go.dev/">Golang</a></li>
-    <li><a href="https://nestjs.com/">Nest.js</a></li>
-    <li><a href="https://socket.io/">SocketIO</a></li>
-    <li><a href="https://www.prisma.io/">Prisma</a></li>    
-    <li><a href="https://www.apollographql.com/">Apollo</a></li>
-    <li><a href="https://graphql.org/">GraphQL</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.mysql.com/">MySQL</a></li>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-    <li><a href="https://redis.io/">Redis</a></li>
-    <li><a href="https://neo4j.com/">Neo4j</a></li>
-    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
+    <li><a href="https://www.python.org/downloads/release/python-370/">Python 3.7</a></li>
+    <li><a href="https://pypi.org/project/pip/">pip</a></li>
+    <li><a href="https://ninja-build.org/manual.html">ninja</a></li>
+    <li><a href="https://opensource.com/article/18/8/what-how-makefile">makefile</a></li>
   </ul>
 </details>
 
@@ -108,16 +92,15 @@
   <ul>
     <li><a href="https://www.docker.com/">Docker</a></li>
     <li><a href="https://www.jenkins.io/">Jenkins</a></li>
-    <li><a href="https://circleci.com/">CircleCLI</a></li>
   </ul>
 </details>
 
 <!-- Features -->
 ### Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Use LiteX toolscain to quickly create an SoC and verify it.
+- Use included Docker image to quickly install development enviroment
+- Use included firmware files to program you SoC
 
 
 <!-- Env Variables -->
@@ -175,7 +158,7 @@ Here is he code with comments,also the a docker image to build the development e
 <!-- Code of Conduct -->
 ### Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
+Please read the [Code of Conduct](https://docs.github.com/en/site-policy/github-terms/github-event-code-of-conduct#:~:text=GitHub%20is%20dedicated%20to%20providing,nationality%2C%20or%20level%20of%20experience.d)
 
 
 <!-- License -->
@@ -197,9 +180,9 @@ See LICENSE.txt for more information.
 <!-- Contact -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Lefteris D. Batzolis
 
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
+Project Link: [Risc-V-SoC-Using-Lite](https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteXe)
 
 <!-- Acknowledgments -->
 ## Acknowledgements
