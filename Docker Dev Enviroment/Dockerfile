@@ -8,12 +8,10 @@ FROM ubuntu:22.04
 WORKDIR /code
 
 #quartus instalation 
-#ADD Quartus-lite-20.1.1.720-linux.tar /quartus	
-#ADD eclipse-cpp-mars-2-linux-gtk-x86_64.tar.gz /
-#RUN /quartus/setup.sh --mode unattended --accept_eula 1 --installdir /opt/quartus && \
-#	(cd /opt/quartus/nios2eds/bin && mv /eclipse ./eclipse_nios2 && tar xfz eclipse_nios2_plugins.tar.gz)
-
-#COPY --from=install /opt/quartus /opt/quartus
+#ADD Quartus-lite-20.1.1.711-linux.tar /quartus	
+#RUN /quartus/setup.sh --mode unattended --accept_eula 1 --installdir /opt/quartus 
+#COPY --from=build /opt/quartus /opt/quartus
+#CMD ["/opt/quartus/quartus/bin/quartus", "--64bit"]
 #litex dependencies
 ARG DEBIAN_FRONTEND=noninteractive
 
