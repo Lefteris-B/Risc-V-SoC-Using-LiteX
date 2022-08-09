@@ -22,6 +22,22 @@ RUN apt-get -y update && \
         git \
         python3 \
         python3-setuptools \
+        autotools-dev \
+        curl \
+        libmpc-dev \
+        libmpfr-dev \
+        libgmp-dev \
+        gawk \
+        build-essential \
+        bison \
+        flex \
+        texinfo \
+        gperf \
+        libtool \
+        patchutils \
+        bc \
+        zlib1g-dev \
+        libexpat-dev \
         pip \
         wget \
         tar \
@@ -41,10 +57,11 @@ ENV LITEX_VERSION 7789e1875a5f108cc709a8b57f4dd9c3ba860fa7
 RUN mkdir litex && \
     cd litex && \
     wget https://raw.githubusercontent.com/enjoy-digital/litex/${LITEX_VERSION}/litex_setup.py && \
-    python3 litex_setup.py init install
+    python3 litex_setup.py init install && \
+    python3 litex_setup.py --gcc=riscv
 
 #copy code directories
 COPY . .
-
+#CMD litex-boards/litex-boards/targets/terasic_de10l.py --build --load
 #CMD [ "python", "./your-daemon-or-script.py" ]
 
