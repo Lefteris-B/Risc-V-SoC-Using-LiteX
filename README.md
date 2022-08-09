@@ -118,10 +118,10 @@ Start by reading litex wiki.
 <!-- Prerequisites -->
 ### Prerequisites
 
-Python 3.9
+Python 3.10
 
 ```bash
- sudo apt-get install -y python3.9
+ sudo apt-get install -y python3
 
 ```
 Intel Quartus 22.1.1
