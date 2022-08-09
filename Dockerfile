@@ -22,10 +22,12 @@ RUN apt-get -y update && \
         git \
         python3 \
         python3-setuptools \
+        pip \
         wget \
         tar \
         automake \
         apparmor \
+        Brlapi \
         apturl \
         autoconf \
         make \
