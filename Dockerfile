@@ -45,6 +45,9 @@ RUN apt-get -y update && \
         apparmor \
         apturl \
         autoconf \
+        libevent-dev \
+        libjson-c-dev \
+        verilator \
         make \
         gzip && \
     rm -rf /var/lib/apt/lists/*
