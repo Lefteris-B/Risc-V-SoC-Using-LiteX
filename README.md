@@ -186,7 +186,7 @@ as well as basic peripherals, without dependencies on closed source IP or code g
 See LICENSE.txt for more information.
 
 
-<!-- Contact -->
+<!-- Contact information-->
 ## Contact
 
 Lefteris D. Batzolis
