@@ -49,6 +49,7 @@ RUN apt-get -y update && \
         libjson-c-dev \
         verilator \
         make \
+        gcc-riscv64-linux-gnu \
         gzip && \
     rm -rf /var/lib/apt/lists/*
 #requirement instalation 
@@ -60,8 +61,7 @@ ENV LITEX_VERSION 7789e1875a5f108cc709a8b57f4dd9c3ba860fa7
 RUN mkdir litex && \
     cd litex && \
     wget https://raw.githubusercontent.com/enjoy-digital/litex/${LITEX_VERSION}/litex_setup.py && \
-    python3 litex_setup.py init install && \
-    python3 litex_setup.py --gcc=riscv
+    python3 litex_setup.py init install 
 
 #copy code directories
 COPY . .
