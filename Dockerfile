@@ -27,7 +27,6 @@ RUN apt-get -y update && \
         tar \
         automake \
         apparmor \
-        Brlapi \
         apturl \
         autoconf \
         make \
