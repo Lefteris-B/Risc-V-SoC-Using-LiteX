@@ -1,6 +1,3 @@
-#!not working missing commands
-#todo script call 
-
 #debian linux, python 3.9 image
 FROM ubuntu:22.04
 
@@ -12,7 +9,8 @@ WORKDIR /code
 #RUN /quartus/setup.sh --mode unattended --accept_eula 1 --installdir /opt/quartus 
 #COPY --from=build /opt/quartus /opt/quartus
 #CMD ["/opt/quartus/quartus/bin/quartus", "--64bit"]
-#litex dependencies
+
+#litex OS dependencies
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get -y update && \
@@ -50,7 +48,8 @@ RUN apt-get -y update && \
         gcc-riscv64-linux-gnu \
         gzip && \
     rm -rf /var/lib/apt/lists/*
-#requirement instalation 
+
+#Python Library Requirements instalation 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
@@ -63,6 +62,7 @@ RUN mkdir litex && \
 
 #copy code directories
 COPY . .
-#CMD litex-boards/litex-boards/targets/terasic_de10l.py --build --load
-#CMD [ "python", "./your-daemon-or-script.py" ]
 
+#Default Executable
+#CMD litex-boards/litex-boards/targets/terasic_de10l.py --build --load && \
+#    litex/litex/tools/litex_term.py 
