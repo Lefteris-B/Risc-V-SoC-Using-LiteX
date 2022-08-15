@@ -5,7 +5,10 @@
 #
 # Copyright (c) 2019 msloniewski <marcin.sloniewski@gmail.com>
 # SPDX-License-Identifier: BSD-2-Clause
-# Added functionality 2022  Batzolis Elefthrios <egbatzo@teiemt.gr>
+# Added functionality and imporived comments - 2022  Batzolis Elefthrios <egbatzo@teiemt.gr>
+
+
+#library imports 
 
 from migen import *
 from migen.genlib.resetsync import AsyncResetSynchronizer
@@ -24,7 +27,7 @@ from litex.soc.cores.led import LedChaser
 from litedram.modules import IS42S16320
 from litedram.phy import GENSDRPHY
 
-# CRG ----------------------------------------------------------------------------------------------
+# CRG - Clock timers initiation
 
 class _CRG(Module):
     def __init__(self, platform, sys_clk_freq):
@@ -49,7 +52,7 @@ class _CRG(Module):
         # SDRAM clock
         self.specials += DDROutput(1, 0, platform.request("sdram_clock"), ClockSignal("sys_ps"))
 
-# BaseSoC ------------------------------------------------------------------------------------------
+# BaseSoC - Softcore,clocks,timers,sdram,leds and video terminal initiated
 
 class BaseSoC(SoCCore):
     def __init__(self, sys_clk_freq=int(50e6), with_led_chaser=True, with_video_terminal=False,
@@ -82,7 +85,7 @@ class BaseSoC(SoCCore):
                 pads         = platform.request_all("user_led"),
                 sys_clk_freq = sys_clk_freq)
 
-# Build --------------------------------------------------------------------------------------------
+# Build proccess - Convert migen to verilog\ Start Quartus to convert verilog to bitstream\ Upload bitstream to fpga
 
 def main():
     from litex.soc.integration.soc import LiteXSoCArgumentParser
