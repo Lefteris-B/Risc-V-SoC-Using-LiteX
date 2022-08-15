@@ -21,11 +21,19 @@
   <a href="#license"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
   <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/issues"><img src="https://img.shields.io/github/issues/Lefteris-B/Risc-V-SoC-Using-LiteX" alt="issues - Risc-V-SoC-Using-LiteX"></a>
   <a href="https://lefteris-b.github.io/Risc-V-SoC-Using-LiteX/"><img src="https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge" alt="View site - GH Pages"></a>
-  <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/issues/new/choose">
-    <img src="https://img.shields.io/github/issues/Louis3797/awesome-readme-template" alt="open issues" />
-  </a>
   <a href="/docs/" title="Go to project documentation"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"></a>
 </p>
+   
+<h4>
+    <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/blob/master/LICENSE.md">View License</a>
+  <span> · </span>
+    <a href="https://github.com/enjoy-digital/litex/wiki">Documentation</a>
+  <span> · </span>
+    <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/issues/new/choose">Report Bug</a>
+  <span> · </span>
+    <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/issues/new/choose">Request Feature</a>
+  </h4>
+</div>
 
 <br />
 
