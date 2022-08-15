@@ -127,10 +127,10 @@ Python 3.10
 ```bash
  sudo apt-get install -y python3
  <!-- Installation -->
-### Installation
+## Installation
 
 ```
-Docker Instalation
+Docker Installation
 ```bash
  sudo apt-get update
 ```
