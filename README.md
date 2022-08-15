@@ -7,6 +7,7 @@
   <p>
     Build Risc-V SoCs Using LiteX framework 
   </p>
+<!-- Badges -->
 
 <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/releases/"><img src="https://img.shields.io/github/tag/Lefteris-B/Risc-V-SoC-Using-LiteX?include_prereleases=&sort=semver&color=blue" alt="GitHub tag"></a>
 <a href="#license"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
@@ -15,7 +16,7 @@
 <a href="/docs/" title="Go to project documentation"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"></a>
 Released under <a href="/LICENSE">MIT</a> by <a href="https://github.com/Lefteris-B">@Lefteris-B</a>.
 
-<!-- Badges -->
+
 <p>
   <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
