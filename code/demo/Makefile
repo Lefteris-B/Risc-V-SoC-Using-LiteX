@@ -1,17 +1,22 @@
+#makefile to create/bundle the demo bios apps
+
+#build directory
 BUILD_DIR?=../build/
 
+#adding code functionality
 include $(BUILD_DIR)/software/include/generated/variables.mak
 include $(SOC_DIRECTORY)/software/common.mak
 
+#including applications
 OBJECTS   = donut.o helloc.o crt0.o main.o
 ifdef WITH_CXX
 	OBJECTS += hellocpp.o
 endif
 
-
+#final file
 all: demo.bin
 
-
+#linking
 %.bin: %.elf
 	$(OBJCOPY) -O binary $< $@
 ifneq ($(OS),Windows_NT)
@@ -19,7 +24,7 @@ ifneq ($(OS),Windows_NT)
 endif
 
 vpath %.a $(PACKAGES:%=../%)
-
+#linking
 demo.elf: $(OBJECTS)
 	$(CC) $(LDFLAGS) -T linker.ld -N -o $@ \
 		$(OBJECTS) \
