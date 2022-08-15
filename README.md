@@ -130,7 +130,7 @@ Python 3.10
  <!-- Installation -->
 ### Installation
 
-```
+
 Docker Installation
 ```bash
  sudo apt-get update
