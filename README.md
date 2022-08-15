@@ -200,7 +200,7 @@ See LICENSE.txt for more information.
 <!-- Contact information-->
 ## Contact
 
-Lefteris D. Batzolis
+Lefteris D. Batzolis <egbatzo[at]teiemt[dot].gr>
 
 Project Link: [Risc-V-SoC-Using-Lite](https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteXe)
 
