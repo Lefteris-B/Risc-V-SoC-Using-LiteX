@@ -20,7 +20,7 @@
   <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/releases/"><img src="https://img.shields.io/github/tag/Lefteris-B/Risc-V-SoC-Using-LiteX?include_prereleases=&sort=semver&color=blue" alt="GitHub tag"></a>
   <a href="#license"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
   <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/issues"><img src="https://img.shields.io/github/issues/Lefteris-B/Risc-V-SoC-Using-LiteX" alt="issues - Risc-V-SoC-Using-LiteX"></a>
-  <a href="/docs/" title="Go to project documentation"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"></a>
+  <a href="https://htmlpreview.github.io/?https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/blob/master/docs/index.html" title="Go to project documentation"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"></a>
 </p>
    
 <h4>
