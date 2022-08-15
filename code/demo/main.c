@@ -1,6 +1,12 @@
 // This file is Copyright (c) 2020 Florent Kermarrec <florent@enjoy-digital.fr>
 // License: BSD
+//comments added <egbato@teiemt.gr>
 
+/*-----------------------------------------------------------------------*/
+/* DEMO APP REPL ENV.                                                    */
+/*-----------------------------------------------------------------------*/
+
+//library functionality includes
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -13,7 +19,7 @@
 /*-----------------------------------------------------------------------*/
 /* Uart                                                                  */
 /*-----------------------------------------------------------------------*/
-
+//enabling uart
 static char *readstr(void)
 {
 	char c[2];
@@ -51,7 +57,7 @@ static char *readstr(void)
 
 	return NULL;
 }
-
+//receiving input
 static char *get_token(char **str)
 {
 	char *c, *d;
@@ -67,16 +73,16 @@ static char *get_token(char **str)
 	*str = c+1;
 	return d;
 }
-
+//User Prompt 
 static void prompt(void)
 {
-	printf("\e[92;1mlitex-demo-app\e[0m> ");
+	printf("\e[92;1mdipae-egbatzo-litex-demo-app\e[0m> ");
 }
 
 /*-----------------------------------------------------------------------*/
 /* Help                                                                  */
 /*-----------------------------------------------------------------------*/
-
+//help prompt
 static void help(void)
 {
 	puts("\nLiteX minimal demo app built "__DATE__" "__TIME__"\n");
@@ -96,12 +102,12 @@ static void help(void)
 /*-----------------------------------------------------------------------*/
 /* Commands                                                              */
 /*-----------------------------------------------------------------------*/
-
+//menu options
 static void reboot_cmd(void)
 {
 	ctrl_reset_write(1);
 }
-
+//configure FPGA leds 
 #ifdef CSR_LEDS_BASE
 static void led_cmd(void)
 {
@@ -133,17 +139,17 @@ static void led_cmd(void)
 	}
 }
 #endif
-
+//including an external file
 extern void donut(void);
-
+//starting the donut demo app
 static void donut_cmd(void)
 {
 	printf("Donut demo...\n");
 	donut();
 }
-
+//including an external file
 extern void helloc(void);
-
+//starting the hello demo app
 static void helloc_cmd(void)
 {
 	printf("Hello C demo...\n");
@@ -163,7 +169,7 @@ static void hellocpp_cmd(void)
 /*-----------------------------------------------------------------------*/
 /* Console service / Main                                                */
 /*-----------------------------------------------------------------------*/
-
+//Menu options
 static void console_service(void)
 {
 	char *str;
