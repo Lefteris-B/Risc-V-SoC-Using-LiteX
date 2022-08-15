@@ -9,45 +9,23 @@
   </p>
 <!-- Badges -->
 
-<a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/releases/"><img src="https://img.shields.io/github/tag/Lefteris-B/Risc-V-SoC-Using-LiteX?include_prereleases=&sort=semver&color=blue" alt="GitHub tag"></a>
-<a href="#license"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
-<a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/issues"><img src="https://img.shields.io/github/issues/Lefteris-B/Risc-V-SoC-Using-LiteX" alt="issues - Risc-V-SoC-Using-LiteX"></a>
-<a href="https://lefteris-b.github.io/Risc-V-SoC-Using-LiteX/"><img src="https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge" alt="View site - GH Pages"></a>
-<a href="/docs/" title="Go to project documentation"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"></a>
-Released under <a href="/LICENSE">MIT</a> by <a href="https://github.com/Lefteris-B">@Lefteris-B</a>.
+
+
+
+
+
 
 
 <p>
-  <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
-  </a>
-  <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-Lite">
-    <img src="https://img.shields.io/github/last-commit/Louis3797/awesome-readme-template" alt="last update" />
-  </a>
-  <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-Litee/network/members">
-    <img src="https://img.shields.io/github/forks/Louis3797/awesome-readme-template" alt="forks" />
-  </a>
-  <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/stargazers">
-    <img src="https://img.shields.io/github/stars/Louis3797/awesome-readme-template" alt="stars" />
-  </a>
+  <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/releases/"><img src="https://img.shields.io/github/tag/Lefteris-B/Risc-V-SoC-Using-LiteX?include_prereleases=&sort=semver&color=blue" alt="GitHub tag"></a>
+  <a href="#license"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
+  <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/issues"><img src="https://img.shields.io/github/issues/Lefteris-B/Risc-V-SoC-Using-LiteX" alt="issues - Risc-V-SoC-Using-LiteX"></a>
+  <a href="https://lefteris-b.github.io/Risc-V-SoC-Using-LiteX/"><img src="https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge" alt="View site - GH Pages"></a>
   <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/issues/new/choose">
     <img src="https://img.shields.io/github/issues/Louis3797/awesome-readme-template" alt="open issues" />
   </a>
-  <a href="ttps://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/blob/master/LICENSE.mdE">
-    <img src="https://img.shields.io/github/license/Louis3797/awesome-readme-template.svg" alt="license" />
-  </a>
+  <a href="/docs/" title="Go to project documentation"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"></a>
 </p>
-   
-<h4>
-    <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/blob/master/LICENSE.md">View License</a>
-  <span> · </span>
-    <a href="https://github.com/enjoy-digital/litex/wiki">Documentation</a>
-  <span> · </span>
-    <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/issues/new/choose">Report Bug</a>
-  <span> · </span>
-    <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/issues/new/choose">Request Feature</a>
-  </h4>
-</div>
 
 <br />
 
