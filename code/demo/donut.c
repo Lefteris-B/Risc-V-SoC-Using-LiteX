@@ -4,13 +4,16 @@
 // For more info:
 // - https://www.a1k0n.net/2011/07/20/donut-math.html
 // - https://www.youtube.com/watch?v=DEqXNfs_HhY
+//comments added <egbato@teiemt.gr>
 
+//adding library functionality
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 #include <libbase/console.h>
 
+//macro definition of R
 #define R(mul,shift,x,y) \
   _=x; \
   x -= mul*y>>shift; \
@@ -20,8 +23,11 @@
   y = y*_>>10;
 
 signed char b[1760], z[1760];
+//calling the donut function
 
 void donut(void);
+
+//creating the substitution algorithm
 void donut(void) {
   int sA=1024,cA=0,sB=1024,cB=0,_;
   for (;;) {
