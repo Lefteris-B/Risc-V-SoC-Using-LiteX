@@ -212,7 +212,7 @@ Lefteris D. Batzolis <egbatzo[at]teiemt[dot].gr>
 
 Project Link: [Risc-V-SoC-Using-Lite](https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteXe)
 
-<!-- Acknowledgments  -->
+<!-- Acknowledgments    -->
 ## Acknowledgements
 SUBJECT AREA: Implementation of a RISC-V core with an FPGA. 
 KEYWORDS: FPGA, LiteX, Python, RISC-V, SoC.
