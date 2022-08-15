@@ -26,7 +26,7 @@
 <h4>
     <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/blob/master/LICENSE.md">View License</a>
   <span> · </span>
-    <a href="https://github.com/enjoy-digital/litex/wiki">Documentation</a>
+    <a href="https://github.com/enjoy-digital/litex/wiki">LiteX Documentation</a>
   <span> · </span>
     <a href="https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX/issues/new/choose">Report Bug</a>
   <span> · </span>
