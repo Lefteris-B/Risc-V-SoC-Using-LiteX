@@ -158,7 +158,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 <!-- Installation -->
 
-Folllow directions
+Folllow directions for troubleshooting https://tinyurl.com/2fpn3jt9
 
 <!-- Run Locally -->
 ### Run Locally
@@ -168,24 +168,23 @@ Clone the project
 ```bash
   git clone https://github.com/Lefteris-B/Risc-V-SoC-Using-LiteX.git
 ```
-
-Go to the project directory
-
+Make docker container 
 ```bash
-  cd code
+ cd Docker Dev Environment 
 ```
-
-Install dependencies
-just
 ```bash
-  pip install requirements.txt
-``` 
+ make
+```
+or simply download the already made image :
+```bash
+ docker pull egbatzo/dipae-litex:latest
+```
 
 
 <!-- Usage -->
 ## Usage
 
-Here is he code with comments,also the a docker image to build the development enviroment and the elf binary elfs for uploadig the firmware.
+Use the  docker image to build the development enviroment and create the elf binary files,uploadig the firmware, build gateware etc.
 
 <!-- Roadmap -->
 
