@@ -3,15 +3,17 @@
 #
 # Copyright (c) 2019 msloniewski <marcin.sloniewski@gmail.com>
 # SPDX-License-Identifier: BSD-2-Clause
+#Adding functionality and comments egbatzo@teiemt.gr
 
+#importing functionality
 from litex.build.generic_platform import *
 from litex.build.altera import AlteraPlatform
 from litex.build.altera.programmer import USBBlaster
 
-# IOs ----------------------------------------------------------------------------------------------
+# IOs - Pins based on De10lite schematic
 
 _io = [
-    # Clk / Rst
+    # Clk / Rst 
     ("clk10", 0, Pins("N5"),  IOStandard("3.3-V LVTTL")),
     ("clk50", 0, Pins("P11"), IOStandard("3.3-V LVTTL")),
     ("clk50", 1, Pins("N14"), IOStandard("3.3-V LVTTL")),
@@ -52,7 +54,7 @@ _io = [
     ("seven_seg", 4, Pins("F18 E20 E19 J18 H19 F19 F20 F17"), IOStandard("3.3-V LVTTL")),
     ("seven_seg", 5, Pins("J20 K20 L18 N18 M20 N19 N20 L19"), IOStandard("3.3-V LVTTL")),
 
-    # Serial
+    # Serial - Adding UART serial on GPIO pin 0,1
     ("serial", 0,
         Subsignal("tx", Pins("V10"), IOStandard("3.3-V LVTTL")), # JP1 GPIO[0]
         Subsignal("rx", Pins("W10"), IOStandard("3.3-V LVTTL"))  # JP1 GPIO[1]
@@ -115,7 +117,7 @@ _io = [
     ),
 ]
 
-# Platform -----------------------------------------------------------------------------------------
+# Platform / Quartus Project Build options passing 
 
 class Platform(AlteraPlatform):
     default_clk_name   = "clk50"
