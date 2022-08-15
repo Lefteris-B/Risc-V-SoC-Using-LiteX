@@ -5,6 +5,7 @@
 #
 # Copyright (c) 2019 msloniewski <marcin.sloniewski@gmail.com>
 # SPDX-License-Identifier: BSD-2-Clause
+# Added functionality 2022  Batzolis Elefthrios <egbatzo@teiemt.gr>
 
 from migen import *
 from migen.genlib.resetsync import AsyncResetSynchronizer
