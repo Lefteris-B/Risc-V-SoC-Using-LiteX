@@ -106,14 +106,14 @@
 <!-- Folder Structure -->
 ### Folder Structure
 
-build  - Folder includes Simulation\Verification files and build files for the gateware\software
-code   - Folder includes the software demo files
-Docker Env - Folder includes the necessary files to build your Docker Development Environment
-firmware   - Folder includes firmaware files for the SoC   
-micropython - Folder includes Micropython build experiment
-platform - Folder includes de10lite pins and quartus build options
-targets  - Folder includes de10lite Base SoC peripheral build  and programmer file
-software - Folder includes a helper scripts like a bitstream programmer
+- build  - Folder includes Simulation\Verification files and build files for the gateware\software
+- code   - Folder includes the software demo files
+- Docker Env - Folder includes the necessary files to build your Docker Development Environment
+- firmware   - Folder includes firmaware files for the SoC   
+- micropython - Folder includes Micropython build experiment
+- platform - Folder includes de10lite pins and quartus build options
+- targets  - Folder includes de10lite Base SoC peripheral build  and programmer file
+- software - Folder includes a helper scripts like a bitstream programmer
 
 <!-- Env Variables -->
 ### Environment Variables
