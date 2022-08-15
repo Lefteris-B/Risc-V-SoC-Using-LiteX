@@ -1,0 +1,181 @@
+VIDEO_TERMINAL_VTG
+==================
+
+Register Listing for VIDEO_TERMINAL_VTG
+---------------------------------------
+
++------------------------------------------------------------------------+----------------------------------------------------+
+| Register                                                               | Address                                            |
++========================================================================+====================================================+
+| :ref:`VIDEO_TERMINAL_VTG_ENABLE <VIDEO_TERMINAL_VTG_ENABLE>`           | :ref:`0xf0002800 <VIDEO_TERMINAL_VTG_ENABLE>`      |
++------------------------------------------------------------------------+----------------------------------------------------+
+| :ref:`VIDEO_TERMINAL_VTG_HRES <VIDEO_TERMINAL_VTG_HRES>`               | :ref:`0xf0002804 <VIDEO_TERMINAL_VTG_HRES>`        |
++------------------------------------------------------------------------+----------------------------------------------------+
+| :ref:`VIDEO_TERMINAL_VTG_HSYNC_START <VIDEO_TERMINAL_VTG_HSYNC_START>` | :ref:`0xf0002808 <VIDEO_TERMINAL_VTG_HSYNC_START>` |
++------------------------------------------------------------------------+----------------------------------------------------+
+| :ref:`VIDEO_TERMINAL_VTG_HSYNC_END <VIDEO_TERMINAL_VTG_HSYNC_END>`     | :ref:`0xf000280c <VIDEO_TERMINAL_VTG_HSYNC_END>`   |
++------------------------------------------------------------------------+----------------------------------------------------+
+| :ref:`VIDEO_TERMINAL_VTG_HSCAN <VIDEO_TERMINAL_VTG_HSCAN>`             | :ref:`0xf0002810 <VIDEO_TERMINAL_VTG_HSCAN>`       |
++------------------------------------------------------------------------+----------------------------------------------------+
+| :ref:`VIDEO_TERMINAL_VTG_VRES <VIDEO_TERMINAL_VTG_VRES>`               | :ref:`0xf0002814 <VIDEO_TERMINAL_VTG_VRES>`        |
++------------------------------------------------------------------------+----------------------------------------------------+
+| :ref:`VIDEO_TERMINAL_VTG_VSYNC_START <VIDEO_TERMINAL_VTG_VSYNC_START>` | :ref:`0xf0002818 <VIDEO_TERMINAL_VTG_VSYNC_START>` |
++------------------------------------------------------------------------+----------------------------------------------------+
+| :ref:`VIDEO_TERMINAL_VTG_VSYNC_END <VIDEO_TERMINAL_VTG_VSYNC_END>`     | :ref:`0xf000281c <VIDEO_TERMINAL_VTG_VSYNC_END>`   |
++------------------------------------------------------------------------+----------------------------------------------------+
+| :ref:`VIDEO_TERMINAL_VTG_VSCAN <VIDEO_TERMINAL_VTG_VSCAN>`             | :ref:`0xf0002820 <VIDEO_TERMINAL_VTG_VSCAN>`       |
++------------------------------------------------------------------------+----------------------------------------------------+
+
+VIDEO_TERMINAL_VTG_ENABLE
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`Address: 0xf0002800 + 0x0 = 0xf0002800`
+
+
+    .. wavedrom::
+        :caption: VIDEO_TERMINAL_VTG_ENABLE
+
+        {
+            "reg": [
+                {"name": "enable", "attr": 'reset: 1', "bits": 1},
+                {"bits": 31},
+            ], "config": {"hspace": 400, "bits": 32, "lanes": 4 }, "options": {"hspace": 400, "bits": 32, "lanes": 4}
+        }
+
+
+VIDEO_TERMINAL_VTG_HRES
+^^^^^^^^^^^^^^^^^^^^^^^
+
+`Address: 0xf0002800 + 0x4 = 0xf0002804`
+
+
+    .. wavedrom::
+        :caption: VIDEO_TERMINAL_VTG_HRES
+
+        {
+            "reg": [
+                {"name": "hres[11:0]", "attr": 'reset: 800', "bits": 12},
+                {"bits": 20},
+            ], "config": {"hspace": 400, "bits": 32, "lanes": 1 }, "options": {"hspace": 400, "bits": 32, "lanes": 1}
+        }
+
+
+VIDEO_TERMINAL_VTG_HSYNC_START
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`Address: 0xf0002800 + 0x8 = 0xf0002808`
+
+
+    .. wavedrom::
+        :caption: VIDEO_TERMINAL_VTG_HSYNC_START
+
+        {
+            "reg": [
+                {"name": "hsync_start[11:0]", "attr": 'reset: 840', "bits": 12},
+                {"bits": 20},
+            ], "config": {"hspace": 400, "bits": 32, "lanes": 1 }, "options": {"hspace": 400, "bits": 32, "lanes": 1}
+        }
+
+
+VIDEO_TERMINAL_VTG_HSYNC_END
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`Address: 0xf0002800 + 0xc = 0xf000280c`
+
+
+    .. wavedrom::
+        :caption: VIDEO_TERMINAL_VTG_HSYNC_END
+
+        {
+            "reg": [
+                {"name": "hsync_end[11:0]", "attr": 'reset: 968', "bits": 12},
+                {"bits": 20},
+            ], "config": {"hspace": 400, "bits": 32, "lanes": 1 }, "options": {"hspace": 400, "bits": 32, "lanes": 1}
+        }
+
+
+VIDEO_TERMINAL_VTG_HSCAN
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+`Address: 0xf0002800 + 0x10 = 0xf0002810`
+
+
+    .. wavedrom::
+        :caption: VIDEO_TERMINAL_VTG_HSCAN
+
+        {
+            "reg": [
+                {"name": "hscan[11:0]", "attr": 'reset: 1055', "bits": 12},
+                {"bits": 20},
+            ], "config": {"hspace": 400, "bits": 32, "lanes": 1 }, "options": {"hspace": 400, "bits": 32, "lanes": 1}
+        }
+
+
+VIDEO_TERMINAL_VTG_VRES
+^^^^^^^^^^^^^^^^^^^^^^^
+
+`Address: 0xf0002800 + 0x14 = 0xf0002814`
+
+
+    .. wavedrom::
+        :caption: VIDEO_TERMINAL_VTG_VRES
+
+        {
+            "reg": [
+                {"name": "vres[11:0]", "attr": 'reset: 600', "bits": 12},
+                {"bits": 20},
+            ], "config": {"hspace": 400, "bits": 32, "lanes": 1 }, "options": {"hspace": 400, "bits": 32, "lanes": 1}
+        }
+
+
+VIDEO_TERMINAL_VTG_VSYNC_START
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`Address: 0xf0002800 + 0x18 = 0xf0002818`
+
+
+    .. wavedrom::
+        :caption: VIDEO_TERMINAL_VTG_VSYNC_START
+
+        {
+            "reg": [
+                {"name": "vsync_start[11:0]", "attr": 'reset: 601', "bits": 12},
+                {"bits": 20},
+            ], "config": {"hspace": 400, "bits": 32, "lanes": 1 }, "options": {"hspace": 400, "bits": 32, "lanes": 1}
+        }
+
+
+VIDEO_TERMINAL_VTG_VSYNC_END
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`Address: 0xf0002800 + 0x1c = 0xf000281c`
+
+
+    .. wavedrom::
+        :caption: VIDEO_TERMINAL_VTG_VSYNC_END
+
+        {
+            "reg": [
+                {"name": "vsync_end[11:0]", "attr": 'reset: 605', "bits": 12},
+                {"bits": 20},
+            ], "config": {"hspace": 400, "bits": 32, "lanes": 1 }, "options": {"hspace": 400, "bits": 32, "lanes": 1}
+        }
+
+
+VIDEO_TERMINAL_VTG_VSCAN
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+`Address: 0xf0002800 + 0x20 = 0xf0002820`
+
+
+    .. wavedrom::
+        :caption: VIDEO_TERMINAL_VTG_VSCAN
+
+        {
+            "reg": [
+                {"name": "vscan[11:0]", "attr": 'reset: 627', "bits": 12},
+                {"bits": 20},
+            ], "config": {"hspace": 400, "bits": 32, "lanes": 1 }, "options": {"hspace": 400, "bits": 32, "lanes": 1}
+        }
+
+

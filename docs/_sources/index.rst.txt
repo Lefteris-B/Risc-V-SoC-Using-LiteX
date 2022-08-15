@@ -21,9 +21,9 @@ Register Groups
     ctrl
     identifier_mem
     leds
-    sdram
     timer0
     uart
+    video_terminal_vtg
 
 Indices and tables
 ==================
