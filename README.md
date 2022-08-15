@@ -102,6 +102,7 @@
 - build  - Folder includes Simulation\Verification files and build files for the gateware\software
 - code   - Folder includes the software demo files
 - Docker Env - Folder includes the necessary files to build your Docker Development Environment
+- Documentation - Folder includes SoC and peripheral documentation
 - firmware   - Folder includes firmaware files for the SoC   
 - micropython - Folder includes Micropython build experiment
 - platform - Folder includes de10lite pins and quartus build options
