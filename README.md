@@ -126,6 +126,8 @@ Python 3.10
 
 ```bash
  sudo apt-get install -y python3
+ <!-- Installation -->
+### Installation
 
 ```
 Docker Instalation
@@ -148,8 +150,6 @@ sudo mkdir -p /etc/apt/keyrings &&
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
-
-<!-- Installation -->
 
 Folllow directions for troubleshooting https://tinyurl.com/2fpn3jt9
 
