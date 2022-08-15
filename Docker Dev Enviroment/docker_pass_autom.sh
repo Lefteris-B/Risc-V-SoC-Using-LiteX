@@ -99,5 +99,3 @@ docker-credential-pass list
 
 echo "Done. Ready to test. Run: sudo docker login <registry>"
 echo "Afterwards run: sudo docker-credential-pass list; sudo cat ~/.docker/config.json"
-Share
-Improve this answer
