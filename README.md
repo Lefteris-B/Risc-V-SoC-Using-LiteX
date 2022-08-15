@@ -135,10 +135,25 @@ Python 3.10
  sudo apt-get install -y python3
 
 ```
-Intel Quartus 22.1.1
+Docker Instalation
 ```bash
- sudo apt-get install -y Quartus-22.1.1-ubuntu
+ sudo apt-get update
+```
 
+```bash
+ sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+```
+
+```bash
+sudo mkdir -p /etc/apt/keyrings &&
+ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+```
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
 <!-- Installation -->
