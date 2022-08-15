@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at terasic_de10lite.v(2596): always construct contains both blocking and non-blocking assignments File: /home/iamme/build/terasic_de10lite/gateware/terasic_de10lite.v Line: 2596
