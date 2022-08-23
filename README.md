@@ -189,7 +189,7 @@ Use the  docker image to build the development enviroment and create the elf bin
 Please read the [Code of Conduct](https://docs.github.com/en/site-policy/github-terms/github-event-code-of-conduct#:~:text=GitHub%20is%20dedicated%20to%20providing,nationality%2C%20or%20level%20of%20experience.d)
 
 
-<!-- License -->
+<!-- Licensek -->
 ## License
 
 As part of this work, a SoC with RISC-V open-source architecture processor will be designed and developed using new synchronous design flow software.
